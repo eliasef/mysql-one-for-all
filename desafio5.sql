@@ -2,9 +2,9 @@ SELECT
     mu.nome AS cancao,
     COUNT(hi.usuario_id) AS reproducoes
 FROM
-    SpotifyClone.musica AS mu
+    `SpotifyClone`.musica AS mu
 INNER JOIN
-    SpotifyClone.historico_reproducoes AS hi ON mu.musica_id = hi.musica_id
+    `SpotifyClone`.historico_reproducoes AS hi ON hi.musica_id = mu.musica_id
 GROUP BY
     hi.musica_id
 ORDER BY
