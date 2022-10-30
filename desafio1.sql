@@ -1,7 +1,5 @@
--- Active: 1666732398764@@127.0.0.1@3307
 DROP DATABASE IF EXISTS SpotifyClone;
 CREATE DATABASE IF NOT EXISTS SpotifyClone;
-
 CREATE TABLE SpotifyClone.plano (
 	plano_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(40) NOT NULL,
@@ -90,7 +88,7 @@ INSERT INTO SpotifyClone.album (nome, ano_lancamento, artista_id) VALUES
 ('QVVJFA?', 2003, 4),
 ('Somewhere Far Beyond', 2007, 5),
 ('I Put A Spell On You', 2012, 6);
-    
+
 INSERT INTO SpotifyClone.musica (nome, duracao_segundos, album_id) VALUES
 ('BREAK MY SOUL', 279, 1),
 ('VIRGO’S GROOVE', 369, 1),
