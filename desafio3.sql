@@ -11,4 +11,4 @@ INNER JOIN
 GROUP BY
 	hi.usuario_id
 ORDER BY
-	us.nome ASC;
+	usuario ASC;

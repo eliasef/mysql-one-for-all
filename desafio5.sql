@@ -8,5 +8,5 @@ INNER JOIN
 GROUP BY
     hi.musica_id
 ORDER BY
-    COUNT(hi.usuario_id) DESC, mu.nome ASC
+    reproducoes DESC, mu.nome ASC
 LIMIT 2;

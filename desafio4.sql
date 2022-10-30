@@ -8,5 +8,5 @@ INNER JOIN
 GROUP BY
     us.nome
 ORDER BY
-    us.nome;
+    usuario;
    
