@@ -9,6 +9,6 @@ INNER JOIN
 INNER JOIN
 	SpotifyClone.musica AS mu ON mu.musica_id = hi.musica_id 
 GROUP BY
-	us.nome
+	hi.usuario_id
 ORDER BY
 	us.nome ASC;
